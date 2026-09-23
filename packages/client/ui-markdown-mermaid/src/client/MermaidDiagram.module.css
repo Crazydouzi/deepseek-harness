@@ -1,0 +1,41 @@
+/* Diagrams span the reading column; a wide graph scrolls inside its own frame. */
+.diagram {
+  margin: 12px 0;
+  overflow-x: auto;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+}
+
+.svg svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.pending,
+.caption {
+  font: var(--dsw-font-markdown-small);
+  opacity: 0.7;
+}
+
+.caption {
+  margin: 0 0 6px;
+}
+
+.detail {
+  display: block;
+  font: var(--dsw-font-markdown-code-block);
+  overflow-wrap: anywhere;
+}
+
+.actions {
+  margin-top: 8px;
+}
+
+.source {
+  margin: 0;
+  font: var(--dsw-font-markdown-code-block);
+  white-space: pre-wrap;
+}

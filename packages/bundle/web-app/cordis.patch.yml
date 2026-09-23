@@ -233,6 +233,12 @@
     - id: ui-sidebar-documentpreview
       name: '@deepseek-ai/dsh-client-ui-sidebar-documentpreview'
 
+    # Mermaid-aware Markdown: an `.md` document implementation that renders
+    # ```mermaid fences as diagrams. It registers in the external priority band,
+    # so it is the selected Markdown viewer while the builtin stays in the menu.
+    - id: ui-markdown-mermaid
+      name: '@deepseek-ai/dsh-client-ui-markdown-mermaid'
+
     # Sandboxed HTTP(S) Browser tabs, including loopback targets.
     - id: ui-sidebar-browser
       name: '@deepseek-ai/dsh-client-ui-sidebar-browser'

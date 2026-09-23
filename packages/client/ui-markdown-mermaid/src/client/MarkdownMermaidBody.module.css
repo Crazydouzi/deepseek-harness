@@ -1,0 +1,7 @@
+/* The owner supplies scrolling; regions keep prose whitespace inside a source-oriented container. */
+.document {
+  min-width: 0;
+  padding: 10px 12px;
+  font-family: var(--dsw-font, inherit);
+  white-space: normal;
+}
